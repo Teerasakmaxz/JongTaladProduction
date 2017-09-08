@@ -1,4 +1,4 @@
-#Fri Sep 08 15:46:40 ICT 2017
+#Fri Sep 08 16:04:58 ICT 2017
 base.0=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_209c517a0f6eebc3c42f5f2a017ba1b40a38266f
 renamed.1=classes2.dex
 renamed.0=classes.dex

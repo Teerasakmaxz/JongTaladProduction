@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
             startActivity(intent);
         } else if (view == btnLoginPage) {
-            Intent intent = new Intent(MainActivity.this, MarketListActivity.class);
+            Intent intent = new Intent(MainActivity.this, LockReservation.class);
             startActivity(intent);
         } else if (view == tvForgotPassword) {
             Intent intent = new Intent(MainActivity.this, ForgotPasswordActivity.class);

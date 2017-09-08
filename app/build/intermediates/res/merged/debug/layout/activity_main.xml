@@ -58,12 +58,14 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:textColor="@color/text_color"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Username:" />
 
                 <EditText
+                    android:textColor="@color/text_color"
                     android:inputType="text"
                     android:id="@+id/etUsername"
                     android:layout_width="0dp"
@@ -78,12 +80,14 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:textColor="@color/text_color"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Password:" />
 
                 <EditText
+                    android:textColor="@color/text_color"
                     android:inputType="textPassword"
                     android:id="@+id/etPassword"
                     android:layout_width="0dp"
@@ -93,6 +97,7 @@
             </LinearLayout>
 
             <TextView
+                android:textColor="@color/text_color"
                 android:id="@+id/tvForgotPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
