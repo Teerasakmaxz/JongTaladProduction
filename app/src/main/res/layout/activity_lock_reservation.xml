@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
     tools:context="com.example.army2102.jongtalad.LockReservation">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="16dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="ผังตลาด"
-                android:textSize="18sp"
+                android:textColor="@color/text_color"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <android.support.v4.widget.NestedScrollView
@@ -336,22 +344,22 @@
                 </LinearLayout>
 
                 <!--<LinearLayout-->
-                    <!--android:layout_width="0dp"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_weight="1"-->
-                    <!--android:gravity="center"-->
-                    <!--android:orientation="horizontal">-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="horizontal">-->
 
-                    <!--<View-->
-                        <!--android:layout_width="10dp"-->
-                        <!--android:layout_height="10dp"-->
-                        <!--android:layout_marginRight="8dp"-->
-                        <!--android:background="@color/lockStatusChoose" />-->
+                <!--<View-->
+                <!--android:layout_width="10dp"-->
+                <!--android:layout_height="10dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@color/lockStatusChoose" />-->
 
-                    <!--<TextView-->
-                        <!--android:layout_width="wrap_content"-->
-                        <!--android:layout_height="wrap_content"-->
-                        <!--android:text="เลือก" />-->
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="เลือก" />-->
 
                 <!--</LinearLayout>-->
 
@@ -379,6 +387,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="ชื่อ:"
+                        android:textColor="@color/text_color"
                         android:textStyle="bold" />
 
                     <EditText
@@ -386,7 +395,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
-                        android:inputType="text" />
+                        android:inputType="text"
+                        android:textColor="@color/text_color" />
 
                 </LinearLayout>
 
@@ -403,6 +413,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="นามสกุล:"
+                        android:textColor="@color/text_color"
                         android:textStyle="bold" />
 
                     <EditText
@@ -410,7 +421,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
-                        android:inputType="text" />
+                        android:inputType="text"
+                        android:textColor="@color/text_color" />
 
                 </LinearLayout>
 
@@ -426,6 +438,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="ประเภทสินค้า:"
+                        android:textColor="@color/text_color"
                         android:textStyle="bold" />
 
                     <Spinner
@@ -447,6 +460,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="ชื่อล็อค:"
+                        android:textColor="@color/text_color"
                         android:textStyle="bold" />
 
                     <Spinner
@@ -474,4 +488,4 @@
     </ScrollView>
 
 
-</LinearLayout>
+</RelativeLayout>

@@ -857,14 +857,7 @@
                     "endOffset": 6161
                 },
                 "from": {
-                    "file": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 465,
-                        "endColumn": 46,
-                        "endOffset": 507
-                    }
+                    "file": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1164,7 +1157,14 @@
                     "endOffset": 7801
                 },
                 "from": {
-                    "file": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 370,
+                        "endColumn": 47,
+                        "endOffset": 413
+                    }
                 }
             },
             {
@@ -1608,14 +1608,7 @@
                     "endOffset": 10187
                 },
                 "from": {
-                    "file": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 419,
-                        "endColumn": 44,
-                        "endOffset": 459
-                    }
+                    "file": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
