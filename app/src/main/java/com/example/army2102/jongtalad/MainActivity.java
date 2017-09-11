@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private Button btnRegisterPage;
     private Button btnLoginPage;
-    private TextView tvForgotPassword ,textView3,textView4;
+    private TextView tvForgotPassword;
 
 
     @Override
@@ -25,16 +25,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnRegisterPage.setOnClickListener(this);
         btnLoginPage.setOnClickListener(this);
         tvForgotPassword.setOnClickListener(this);
-//        textView3.setOnClickListener(this);
-//        textView4.setOnClickListener(this);
     }
 
     private void initInstances() {
         btnRegisterPage = (Button) findViewById(R.id.btnRegisterPage);
         btnLoginPage = (Button) findViewById(R.id.btnLoginPage);
         tvForgotPassword = (TextView) findViewById(R.id.tvForgotPassword);
-//        textView3 = (TextView) findViewById(R.id.textView3);
-//        textView4 = (TextView) findViewById(R.id.textView4);
 
     }
 

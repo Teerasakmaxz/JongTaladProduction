@@ -49,9 +49,13 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
 
 
     private String[] productTypeList = {
-            "อาหาร",
             "เสื้อผ้า",
-            "อุปกรณ์อิเล็กทรอนิกส์",
+            "เครื่องประดับ",
+            "อาหาร",
+            "เครื่องใช้ไฟฟ้า",
+            "ของเล่น",
+            "เบ็ดเตล็ด/อื่นๆ"
+
     };
 
     private String[] lockList = {
@@ -134,8 +138,8 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
         tvD8 = (TextView) findViewById(R.id.tvD8);
         tvD9 = (TextView) findViewById(R.id.tvD9);
 
-        ArrayAdapter<String> productTypeAdapter = new ArrayAdapter<>(LockReservation.this, R.layout.support_simple_spinner_dropdown_item, productTypeList);
-        ArrayAdapter<String> lockAdapter = new ArrayAdapter<>(LockReservation.this, R.layout.support_simple_spinner_dropdown_item, lockList);
+        ArrayAdapter<String> productTypeAdapter = new ArrayAdapter<>(LockReservation.this, android.R.layout.simple_list_item_1, productTypeList);
+        ArrayAdapter<String> lockAdapter = new ArrayAdapter<>(LockReservation.this, android.R.layout.simple_list_item_1, lockList);
 
         spProductType.setAdapter(productTypeAdapter);
         spLock.setAdapter(lockAdapter);
