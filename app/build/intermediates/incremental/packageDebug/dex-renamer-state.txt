@@ -1,7 +1,7 @@
-#Wed Sep 13 13:14:49 ICT 2017
-base.0=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_209c517a0f6eebc3c42f5f2a017ba1b40a38266f
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9f87dd5df9b4a74c2c32760e38dad19285d86d87\\classes.dex
-base.1=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9f87dd5df9b4a74c2c32760e38dad19285d86d87
-file.0=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_209c517a0f6eebc3c42f5f2a017ba1b40a38266f\\classes.dex
+#Wed Sep 13 15:37:46 ICT 2017
+base.0=/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4f28cce4816350d494ece2c7ec041edabfa0d178
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2a7aadef5c489ad4e0836b22394cf34e95742036/classes.dex
+base.1=/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2a7aadef5c489ad4e0836b22394cf34e95742036
+file.0=/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4f28cce4816350d494ece2c7ec041edabfa0d178/classes.dex

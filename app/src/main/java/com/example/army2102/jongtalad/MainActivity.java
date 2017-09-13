@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private class CheckLogin extends AsyncTask<Void, Void, String> {
 
-        private static final String URL = "http://172.20.10.8:3000/login.php";
+        private static final String URL = "http://172.20.10.5/login.php";
 
         @Override
         protected void onPreExecute() {
@@ -91,11 +91,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             super.onPostExecute(s);
             Log.d("Post", "==>" + s);
             if (s.equals("1")){
-                Toast.makeText(MainActivity.this, "๊Login success", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Login success", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, LockReservation.class);
                 startActivity(intent);
             } else {
-                Toast.makeText(MainActivity.this, "๊Login fail", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Login fail", Toast.LENGTH_SHORT).show();
             }
 
 

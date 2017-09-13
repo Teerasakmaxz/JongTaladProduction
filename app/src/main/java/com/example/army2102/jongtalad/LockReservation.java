@@ -16,6 +16,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.io.IOException;
 import java.util.concurrent.locks.Lock;
 
@@ -40,6 +43,8 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     private String productType;
     private String lockName;
     private String phonenumber;
+    private String dataLock;
+    private String market_id = "1";
 
 
     private TextView tvA1;
@@ -101,6 +106,8 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_lock_reservation);
 
         initInstances();
+        setDataToTV setDataToTV = new setDataToTV();
+        setDataToTV.execute();
         tvA1.setOnClickListener(this);
         tvA2.setOnClickListener(this);
         tvA3.setOnClickListener(this);
@@ -174,7 +181,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
 
                 ReserveLock reserveLock = new ReserveLock();
                 reserveLock.execute();
-                setLockStatus(R.color.lockStatusOuccupied);
+                setLockStatus(spLock.getSelectedItem().toString().trim(),R.color.lockStatusOuccupied);
             }
         } else if (view == tvA1) {
             showLockStatus();
@@ -219,8 +226,8 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
         }
     }
 
-    private void setLockStatus(Integer colorID) {
-        switch (spLock.getSelectedItem().toString()) {
+    private void setLockStatus(String lockName, Integer colorID) {
+        switch (lockName) {
             case "A1":
                 tvA1.setBackgroundResource(colorID);
                 break;
@@ -309,7 +316,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
                 .setPositiveButton("ยกเลิกการจอง", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        setLockStatus(R.color.lockStatausNotOuccupied);
+//                        setLockStatus(R.color.lockStatausNotOuccupied);
                     }
                 })
                 .setNegativeButton("ปิดหน้าจอ", new DialogInterface.OnClickListener() {
@@ -323,7 +330,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     }
 
     private  class ReserveLock extends AsyncTask<Void, Void, String> {
-        public static final String URL = "http://172.20.10.8:3000/market_lock_reservations.php";
+        public static final String URL = "http://172.20.10.5/market_lock_reservations.php";
         @Override
         protected String doInBackground(Void... voids) {
             OkHttpClient okHttpClient = new OkHttpClient();
@@ -361,4 +368,69 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
         }
     }
 
+
+    private class setDataToTV extends AsyncTask<Void,Void,String>  {
+
+        private static final String URLstatusLock ="http://172.20.10.5/load_lock_occupied.php";
+
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+
+            Log.d("Json", "=>" + s);
+            try {
+
+                JSONArray jsonArray = new JSONArray(s);
+                for (int i =0; i<jsonArray.length();i++) {
+
+
+                    JSONObject jsonObject = jsonArray.getJSONObject(i);
+                    if (market_id.equals((jsonObject.getString("market_id")))) {
+                        dataLock = (jsonObject.getString("name"));
+                        setLockStatus(dataLock,R.color.lockStatusOuccupied);
+                        Log.d("dataLock", dataLock);
+                    }
+
+                }//for
+
+
+            }catch (Exception e){
+                Log.d("Erorr", "e onPost ==>" + e.toString());
+            }
+
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected String doInBackground(Void... voids) {
+
+
+
+            try {
+
+
+                OkHttpClient okHttpClient = new OkHttpClient();
+                Request.Builder builder = new Request.Builder();
+                Request request = builder.url(URLstatusLock).build();
+                Response response = okHttpClient.newCall(request).execute();
+                return response.body().string();
+
+            }catch (Exception e){
+
+                Log.d("Dpost", "=>" + e);
+
+                return null;
+            }
+
+
+        }
+    }
+
 }
+
+
