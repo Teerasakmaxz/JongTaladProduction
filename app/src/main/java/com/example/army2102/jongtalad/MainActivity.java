@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private EditText etPassword;
     private String username;
     private String password;
-    private static final String URL = "http://192.168.1.38:3000/login.php";
+
 
 
 
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private class CheckLogin extends AsyncTask<Void, Void, String> {
 
-
+        private static final String URL = "http://172.20.10.8:3000/login.php";
 
         @Override
         protected void onPreExecute() {

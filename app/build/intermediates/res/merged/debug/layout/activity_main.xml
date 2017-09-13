@@ -75,17 +75,18 @@
 
             <TextView
                 android:id="@+id/tvForgotPassword"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="right"
                 android:gravity="right"
                 android:text="ลืมรหัสผ่าน ?"
                 android:textColor="@color/text_color"
                 android:textStyle="bold" />
 
             <View
-                android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"/>
+                android:layout_height="0dp"
+                android:layout_weight="1" />
 
 
             <Button
@@ -101,8 +102,6 @@
                 android:text="สมัครสมาชิก" />
 
         </LinearLayout>
-
-
 
 
     </LinearLayout>

@@ -65,11 +65,11 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
 
 
     private String[] productTypeList = {
-            "Cloth",
-            "Jewelry",
-            "Food",
-            "Electronic",
-            "Toy",
+            "เสื้อผ้า",
+            "เครื่องประดับ",
+            "อาหาร",
+            "เครื่องใช้ไฟฟ้า",
+            "ของเล่น",
     };
 
     private String[] lockList = {
@@ -294,7 +294,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
             dialog.show();
             return false;
         } else {
-            Toast.makeText(LockReservation.this, "จองล็อคสำเร็จ", Toast.LENGTH_LONG).show();
+//            Toast.makeText(LockReservation.this, "จองล็อคสำเร็จ", Toast.LENGTH_LONG).show();
             return true;
         }
     }
@@ -323,7 +323,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     }
 
     private  class ReserveLock extends AsyncTask<Void, Void, String> {
-        public static final String URL = "http://192.168.1.38:3000/market_lock_reservations.php";
+        public static final String URL = "http://172.20.10.8:3000/market_lock_reservations.php";
         @Override
         protected String doInBackground(Void... voids) {
             OkHttpClient okHttpClient = new OkHttpClient();
