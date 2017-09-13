@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Sep 08 18:19:15 ICT 2017
+#Tue Sep 12 20:55:49 ICT 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v22\\abc_alert_dialog_button_bar_material.xml
 14.set=ANDROID_RESOURCE
@@ -427,7 +427,7 @@
 256.set=ANDROID_RESOURCE
 197.set=ANDROID_RESOURCE
 230.base=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_
-5.file=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png
+5.file=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png
 153.base=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_
 282.base=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_
 180.base=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -503,7 +503,7 @@
 266.set=ANDROID_RESOURCE
 231.base=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_
 154.base=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_
-6.file=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png
+6.file=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png
 283.base=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_
 181.base=C\:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\resources-debug.ap_
 121.set=ANDROID_RESOURCE

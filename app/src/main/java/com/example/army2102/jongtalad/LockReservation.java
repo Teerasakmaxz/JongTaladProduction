@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,15 +16,30 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
 import java.util.concurrent.locks.Lock;
 
+import okhttp3.FormBody;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+
 public class LockReservation extends AppCompatActivity implements View.OnClickListener {
+
 
     private Button btnReserve;
     private EditText etName;
     private EditText etSurname;
+    private EditText etPhonenumber;
     private Spinner spProductType;
     private Spinner spLock;
+    private String name;
+    private String surname;
+    private String productType;
+    private String lockName;
+    private String phonenumber;
 
 
     private TextView tvA1;
@@ -49,13 +65,11 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
 
 
     private String[] productTypeList = {
-            "เสื้อผ้า",
-            "เครื่องประดับ",
-            "อาหาร",
-            "เครื่องใช้ไฟฟ้า",
-            "ของเล่น",
-            "เบ็ดเตล็ด/อื่นๆ"
-
+            "Cloth",
+            "Jewelry",
+            "Food",
+            "Electronic",
+            "Toy",
     };
 
     private String[] lockList = {
@@ -109,11 +123,14 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
         tvD9.setOnClickListener(this);
         btnReserve.setOnClickListener(this);
 
+
+
     }
 
     private void initInstances() {
         etName = (EditText) findViewById(R.id.etName);
         etSurname = (EditText) findViewById(R.id.etSurname);
+        etPhonenumber = (EditText) findViewById(R.id.etPhonenumber);
         btnReserve = (Button) findViewById(R.id.btnReserve);
         spProductType = (Spinner) findViewById(R.id.spProductType);
         spLock = (Spinner) findViewById(R.id.spLock);
@@ -148,8 +165,17 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     @Override
     public void onClick(View view) {
         if (view == btnReserve) {
-            if (valuesChecking())
+            if(valuesChecking()){
+                name = etName.getText().toString().trim();
+                surname = etSurname.getText().toString().trim();
+                phonenumber = etPhonenumber.getText().toString().trim();
+                productType = spProductType.getSelectedItem().toString().trim();
+                lockName = spLock.getSelectedItem().toString().trim();
+
+                ReserveLock reserveLock = new ReserveLock();
+                reserveLock.execute();
                 setLockStatus(R.color.lockStatusOuccupied);
+            }
         } else if (view == tvA1) {
             showLockStatus();
         } else if (view == tvA2) {
@@ -294,6 +320,45 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
                 });
         AlertDialog dialog = builder.create();
         dialog.show();
+    }
+
+    private  class ReserveLock extends AsyncTask<Void, Void, String> {
+        public static final String URL = "http://192.168.1.38:3000/market_lock_reservations.php";
+        @Override
+        protected String doInBackground(Void... voids) {
+            OkHttpClient okHttpClient = new OkHttpClient();
+
+            RequestBody requestBody = new FormBody.Builder()
+                    .add("name",name)
+                    .add("surname",surname)
+                    .add("phonenumber", phonenumber)
+                    .add("lockName", lockName)
+                    .add("productType", productType)
+                    .build();
+
+            Request request = new Request.Builder()
+                    .url(URL)
+                    .post(requestBody)
+                    .build();
+
+            try {
+                Response response = okHttpClient.newCall(request).execute();
+                if (response.isSuccessful()) {
+                    return response.body().string();
+                } else {
+                    return "Not Success - code : " + response.code();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+                return "Error - " + e.getMessage();
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            Toast.makeText(LockReservation.this, s, Toast.LENGTH_LONG).show();
+        }
     }
 
 }
