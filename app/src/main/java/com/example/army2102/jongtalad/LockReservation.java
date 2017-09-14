@@ -17,9 +17,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.locks.Lock;
 
 import okhttp3.FormBody;
@@ -69,45 +72,13 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     private TextView tvD9;
 
 
-    private String[] productTypeList = {
-            "เสื้อผ้า",
-            "เครื่องประดับ",
-            "อาหาร",
-            "เครื่องใช้ไฟฟ้า",
-            "ของเล่น",
-    };
-
-    private String[] lockList = {
-            "A1",
-            "A2",
-            "A3",
-            "B1",
-            "B2",
-            "B3",
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5",
-            "D1",
-            "D2",
-            "D3",
-            "D4",
-            "D5",
-            "D6",
-            "D7",
-            "D8",
-            "D9",
-    };
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lock_reservation);
 
         initInstances();
-        setDataToTV setDataToTV = new setDataToTV();
-        setDataToTV.execute();
+
         tvA1.setOnClickListener(this);
         tvA2.setOnClickListener(this);
         tvA3.setOnClickListener(this);
@@ -131,10 +102,16 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
         btnReserve.setOnClickListener(this);
 
 
-
     }
 
     private void initInstances() {
+        setDataToTV setDataToTV = new setDataToTV();
+        setDataToTV.execute();
+        loadLockname loadLockname = new loadLockname();
+        loadLockname.execute();
+        loadProductType loadProductType = new loadProductType();
+        loadProductType.execute();
+
         etName = (EditText) findViewById(R.id.etName);
         etSurname = (EditText) findViewById(R.id.etSurname);
         etPhonenumber = (EditText) findViewById(R.id.etPhonenumber);
@@ -162,17 +139,13 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
         tvD8 = (TextView) findViewById(R.id.tvD8);
         tvD9 = (TextView) findViewById(R.id.tvD9);
 
-        ArrayAdapter<String> productTypeAdapter = new ArrayAdapter<>(LockReservation.this, android.R.layout.simple_list_item_1, productTypeList);
-        ArrayAdapter<String> lockAdapter = new ArrayAdapter<>(LockReservation.this, android.R.layout.simple_list_item_1, lockList);
 
-        spProductType.setAdapter(productTypeAdapter);
-        spLock.setAdapter(lockAdapter);
     }
 
     @Override
     public void onClick(View view) {
         if (view == btnReserve) {
-            if(valuesChecking()){
+            if (valuesChecking()) {
                 name = etName.getText().toString().trim();
                 surname = etSurname.getText().toString().trim();
                 phonenumber = etPhonenumber.getText().toString().trim();
@@ -181,48 +154,48 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
 
                 ReserveLock reserveLock = new ReserveLock();
                 reserveLock.execute();
-                setLockStatus(spLock.getSelectedItem().toString().trim(),R.color.lockStatusOuccupied);
+                setLockStatus(spLock.getSelectedItem().toString().trim(), R.color.lockStatusOuccupied);
             }
         } else if (view == tvA1) {
-            showLockStatus();
+            showLockStatus("A1");
         } else if (view == tvA2) {
-            showLockStatus();
+            showLockStatus("A2");
         } else if (view == tvA3) {
-            showLockStatus();
+            showLockStatus("A3");
         } else if (view == tvB1) {
-            showLockStatus();
+            showLockStatus("B1");
         } else if (view == tvB2) {
-            showLockStatus();
+            showLockStatus("B2");
         } else if (view == tvB3) {
-            showLockStatus();
+            showLockStatus("B3");
         } else if (view == tvC1) {
-            showLockStatus();
+            showLockStatus("C1");
         } else if (view == tvC2) {
-            showLockStatus();
+            showLockStatus("C2");
         } else if (view == tvC3) {
-            showLockStatus();
+            showLockStatus("C3");
         } else if (view == tvC4) {
-            showLockStatus();
+            showLockStatus("C4");
         } else if (view == tvC5) {
-            showLockStatus();
+            showLockStatus("C5");
         } else if (view == tvD1) {
-            showLockStatus();
+            showLockStatus("D1");
         } else if (view == tvD2) {
-            showLockStatus();
+            showLockStatus("D2");
         } else if (view == tvD3) {
-            showLockStatus();
+            showLockStatus("D3");
         } else if (view == tvD4) {
-            showLockStatus();
+            showLockStatus("D4");
         } else if (view == tvD5) {
-            showLockStatus();
+            showLockStatus("D5");
         } else if (view == tvD6) {
-            showLockStatus();
+            showLockStatus("D6");
         } else if (view == tvD7) {
-            showLockStatus();
+            showLockStatus("D7");
         } else if (view == tvD8) {
-            showLockStatus();
+            showLockStatus("D8");
         } else if (view == tvD9) {
-            showLockStatus();
+            showLockStatus("D9");
         }
     }
 
@@ -306,38 +279,21 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
         }
     }
 
-    private void showLockStatus() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(LockReservation.this);
-        builder.setTitle("รายละเอียดล็อค")
-                .setMessage(spLock.getSelectedItem() + "\n" +
-                        etName.getText() + " " +
-                        etSurname.getText() + "\n" +
-                        spProductType.getSelectedItem() + "\n")
-                .setPositiveButton("ยกเลิกการจอง", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-//                        setLockStatus(R.color.lockStatausNotOuccupied);
-                    }
-                })
-                .setNegativeButton("ปิดหน้าจอ", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-
-                    }
-                });
-        AlertDialog dialog = builder.create();
-        dialog.show();
+    private void showLockStatus(String lockName) {
+        loadLockInformation lockInformation = new loadLockInformation();
+        lockInformation.execute(lockName, "RMUTT Walking Street");
     }
 
-    private  class ReserveLock extends AsyncTask<Void, Void, String> {
-        public static final String URL = "http://172.20.10.5/market_lock_reservations.php";
+    private class ReserveLock extends AsyncTask<Void, Void, String> {
+        public static final String URL = "http://172.20.10.8:3000/market_lock_reservations.php";
+
         @Override
         protected String doInBackground(Void... voids) {
             OkHttpClient okHttpClient = new OkHttpClient();
 
             RequestBody requestBody = new FormBody.Builder()
-                    .add("name",name)
-                    .add("surname",surname)
+                    .add("name", name)
+                    .add("surname", surname)
                     .add("phonenumber", phonenumber)
                     .add("lockName", lockName)
                     .add("productType", productType)
@@ -369,9 +325,9 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     }
 
 
-    private class setDataToTV extends AsyncTask<Void,Void,String>  {
+    private class setDataToTV extends AsyncTask<Void, Void, String> {
 
-        private static final String URLstatusLock ="http://172.20.10.5/load_lock_occupied.php";
+        private static final String URLstatusLock = "http://172.20.10.8:3000/load_lock_occupied.php";
 
 
         @Override
@@ -382,20 +338,20 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
             try {
 
                 JSONArray jsonArray = new JSONArray(s);
-                for (int i =0; i<jsonArray.length();i++) {
+                for (int i = 0; i < jsonArray.length(); i++) {
 
 
                     JSONObject jsonObject = jsonArray.getJSONObject(i);
                     if (market_id.equals((jsonObject.getString("market_id")))) {
-                        dataLock = (jsonObject.getString("name"));
-                        setLockStatus(dataLock,R.color.lockStatusOuccupied);
+                        dataLock = jsonObject.getString("name");
+                        setLockStatus(dataLock, R.color.lockStatusOuccupied);
                         Log.d("dataLock", dataLock);
                     }
 
-                }//for
+                }
 
 
-            }catch (Exception e){
+            } catch (Exception e) {
                 Log.d("Erorr", "e onPost ==>" + e.toString());
             }
 
@@ -410,7 +366,6 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
         protected String doInBackground(Void... voids) {
 
 
-
             try {
 
 
@@ -420,7 +375,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
                 Response response = okHttpClient.newCall(request).execute();
                 return response.body().string();
 
-            }catch (Exception e){
+            } catch (Exception e) {
 
                 Log.d("Dpost", "=>" + e);
 
@@ -430,6 +385,190 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
 
         }
     }
+
+    private class loadLockname extends AsyncTask<Void, Void, String> {
+        public static final String URL = "http://172.20.10.8:3000/load_lock_unoccupied.php";
+
+        @Override
+        protected String doInBackground(Void... voids) {
+            OkHttpClient okHttpClient = new OkHttpClient();
+            Request request = new Request.Builder()
+                    .url(URL)
+                    .build();
+
+            try {
+                Response response = okHttpClient.newCall(request).execute();
+                if (response.isSuccessful()) {
+                    return response.body().string();
+                } else {
+                    return "Not Success - code : " + response.code();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+                return "Error - " + e.getMessage();
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            String[] lockList;
+
+            try {
+                JSONArray jsonArray = new JSONArray(s);
+                lockList = new String[jsonArray.length()];
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    JSONObject jsonObject = jsonArray.getJSONObject(i);
+                    lockList[i] = (jsonObject.getString("name"));
+                }
+
+            } catch (JSONException e) {
+                lockList = null;
+                e.printStackTrace();
+            }
+            ArrayAdapter<String> adapter = new ArrayAdapter<>(LockReservation.this, R.layout.custom_spinner_view, lockList);
+            adapter.setDropDownViewResource(R.layout.custom_spinner_drop_down);
+            spLock.setAdapter(adapter);
+        }
+    }
+
+    private class loadProductType extends AsyncTask<Void, Void, String> {
+        public static final String URL = "http://172.20.10.8:3000/load_product_type.php";
+
+        @Override
+        protected String doInBackground(Void... voids) {
+            OkHttpClient okHttpClient = new OkHttpClient();
+            Request request = new Request.Builder()
+                    .url(URL)
+                    .build();
+
+            try {
+                Response response = okHttpClient.newCall(request).execute();
+                if (response.isSuccessful()) {
+                    return response.body().string();
+                } else {
+                    return "Not Success - code : " + response.code();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+                return "Error - " + e.getMessage();
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            String[] productTypeList;
+
+            try {
+                JSONArray jsonArray = new JSONArray(s);
+                productTypeList = new String[jsonArray.length()];
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    JSONObject jsonObject = jsonArray.getJSONObject(i);
+                    productTypeList[i] = jsonObject.getString("name");
+
+                }
+            } catch (JSONException e) {
+                productTypeList = null;
+                e.printStackTrace();
+            }
+
+            ArrayAdapter<String> adapter = new ArrayAdapter<>(LockReservation.this, R.layout.custom_spinner_view, productTypeList);
+            adapter.setDropDownViewResource(R.layout.custom_spinner_drop_down);
+            spProductType.setAdapter(adapter);
+        }
+    }
+
+    private class loadLockInformation extends AsyncTask<String, Void, String> {
+        public static final String URL = "http://172.20.10.8:3000/load_lock_information.php";
+
+
+        @Override
+        protected String doInBackground(String... values) {
+            OkHttpClient okHttpClient = new OkHttpClient();
+
+            RequestBody requestBody = new FormBody.Builder()
+                    .add("lockName", values[0])
+                    .add("marketName", values[1])
+                    .build();
+
+            Request request = new Request.Builder()
+                    .url(URL)
+                    .post(requestBody)
+                    .build();
+
+            try {
+                Response response = okHttpClient.newCall(request).execute();
+                if (response.isSuccessful()) {
+                    return response.body().string();
+                } else {
+                    return "Not Success - code : " + response.code();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+                return "Error - " + e.getMessage();
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            String lockName = "null";
+            String name = "null";
+            String surname = "null";
+            String phonenumber = "null";
+            String productType = "null";
+            try {
+                JSONArray jsonArray = new JSONArray(s);
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    JSONObject jsonObject = jsonArray.getJSONObject(i);
+                    lockName = jsonObject.getString("lockName");
+                    name = jsonObject.getString("name");
+                    surname = jsonObject.getString("surname");
+                    phonenumber = jsonObject.getString("phonenumber");
+                    productType = jsonObject.getString("productType");
+
+                }
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            AlertDialog.Builder builder = new AlertDialog.Builder(LockReservation.this);
+            builder.setTitle("รายละเอียดล็อค")
+                    .setMessage(lockName + "\n" +
+                            name + " " +
+                            surname + "\n" +
+                            phonenumber + "\n" +
+                            productType + "\n")
+                    .setPositiveButton("ยกเลิกการจอง", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+//                            cancelLockReservation cancelLockReservation = new cancelLockReservation();
+//                            cancelLockReservation.execute(,"RMUTT Walking Street");
+                        }
+                    })
+                    .setNegativeButton("ปิดหน้าจอ", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            dialogInterface.dismiss();
+                        }
+                    });
+            AlertDialog dialog = builder.create();
+            dialog.show();
+        }
+    }
+
+
+    /////// TO DO
+    private class cancelLockReservation extends AsyncTask<String, Void, String> {
+        public static final String URL = "http://172.20.10.8:3000/.php";
+
+        @Override
+        protected String doInBackground(String... Voids) {
+            return null;
+        }
+    }
+
 
 }
 
