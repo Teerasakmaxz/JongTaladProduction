@@ -70,7 +70,13 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 dialog.show();
             } else {
                 AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
-                builder.setMessage("โปรดกรอกข้อมูลให้ครบทุกช่อง");
+                builder.setMessage("โปรดกรอกข้อมูลให้ครบทุกช่อง")
+                        .setPositiveButton("ตกลง", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+
+                            }
+                        });
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
@@ -91,7 +97,16 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         }
 
         if (etPhonenumber.getText().toString().length() == 0) {
-            count++;
+            AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
+            builder.setMessage("กรุณากรอกเบอร์โทรศัพท์ให้ครบ 10 หลัก")
+                    .setPositiveButton("ตกลง", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+
+                        }
+                    });
+            AlertDialog dialog = builder.create();
+            dialog.show();
             return false;
         }
 
@@ -108,7 +123,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private class sendDataToDatabase extends AsyncTask<String, Void, String> {
-        public static final String URL = "http://172.20.10.8:3000/market_registration.php";
+        public static final String URL = "http://www.jongtalad.com/market_registration.php";
 
         @Override
         protected String doInBackground(String... value) {

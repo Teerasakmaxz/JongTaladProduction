@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private String password;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private class CheckLogin extends AsyncTask<Void, Void, String> {
 
-        private static final String URL = "http://172.20.10.8:3000/login.php";
+        private static final String URL = "http://www.jongtalad.com/login.php";
 
         @Override
         protected void onPreExecute() {
@@ -63,8 +61,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             OkHttpClient okHttpClient = new OkHttpClient();
 
             RequestBody requestBody = new FormBody.Builder()
-                    .add("username",username)
-                    .add("password",password)
+                    .add("username", username)
+                    .add("password", password)
                     .build();
 
             Request.Builder builder = new Request.Builder();
@@ -90,15 +88,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
             Log.d("Post", "==>" + s);
-            if (s.equals("1")){
+            if (s.equals("1")) {
                 Toast.makeText(MainActivity.this, "Login success", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, LockReservation.class);
                 startActivity(intent);
             } else {
                 Toast.makeText(MainActivity.this, "Login fail", Toast.LENGTH_SHORT).show();
             }
-
-
         }
     }
 

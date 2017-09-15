@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="armeabi-v7a,armeabi"
     api-level="25"
     build-mode="FULL"
-    density="xhdpi"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1505330980779"
+    timestamp="1505458556923"
     token="4696417389167481913"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="2503" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="252" />
+        duration="0" />
     <task
         name="verifier"
-        duration="81" />
+        duration="0" />
 
+    <artifact
+        location="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
@@ -56,14 +59,14 @@
     <artifact
         location="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1505330980779"
+        timestamp="1505458556923"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
@@ -97,9 +100,6 @@
         <artifact
             location="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
