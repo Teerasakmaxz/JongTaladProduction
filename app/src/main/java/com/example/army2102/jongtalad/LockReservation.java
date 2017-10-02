@@ -4,6 +4,8 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
+import android.icu.text.SimpleDateFormat;
+import android.icu.util.Calendar;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,6 +25,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.concurrent.locks.Lock;
 
 import okhttp3.FormBody;
@@ -103,10 +106,13 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     }
 
     private void initInstances() {
+
         setDataToTV setDataToTV = new setDataToTV();
         setDataToTV.execute();
+
         loadLockname loadLockname = new loadLockname();
         loadLockname.execute();
+
         loadProductType loadProductType = new loadProductType();
         loadProductType.execute();
 
@@ -313,7 +319,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     }
 
     private class ReserveLock extends AsyncTask<String, Void, String> {
-        public static final String URL = "http://www.jongtalad.com/market_lock_reservations.php";
+        public static final String URL = "http://www.jongtalad.com/doc/market_lock_reservations.php";
 
         @Override
         protected String doInBackground(String... values) {
@@ -354,7 +360,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
 
     private class setDataToTV extends AsyncTask<Void, Void, String> {
 
-        private static final String URLstatusLock = "http://www.jongtalad.com/load_lock_occupied.php";
+        private static final String URLstatusLock = "http://www.jongtalad.com/doc/load_lock_occupied.php";
 
 
         @Override
@@ -414,7 +420,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     }
 
     private class loadLockname extends AsyncTask<Void, Void, String> {
-        public static final String URL = "http://www.jongtalad.com/load_lock_unoccupied.php";
+        public static final String URL = "http://www.jongtalad.com/doc/load_lock_unoccupied.php";
 
         @Override
         protected String doInBackground(Void... voids) {
@@ -454,9 +460,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
                 lockList = null;
                 e.printStackTrace();
             }
-//            if(lockList.length != 0){
-//
-//            }
+
             ArrayAdapter<String> adapter = new ArrayAdapter<>(LockReservation.this, R.layout.custom_spinner_view, lockList);
             adapter.setDropDownViewResource(R.layout.custom_spinner_drop_down);
             spLock.setAdapter(adapter);
@@ -464,7 +468,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     }
 
     private class loadProductType extends AsyncTask<Void, Void, String> {
-        public static final String URL = "http://www.jongtalad.com/load_product_type.php";
+        public static final String URL = "http://www.jongtalad.com/doc/load_product_type.php";
 
         @Override
         protected String doInBackground(Void... voids) {
@@ -490,7 +494,6 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
             String[] productTypeList;
-
             try {
                 JSONArray jsonArray = new JSONArray(s);
                 productTypeList = new String[jsonArray.length()];
@@ -511,7 +514,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     }
 
     private class loadLockInformation extends AsyncTask<String, Void, String> {
-        public static final String URL = "http://www.jongtalad.com/load_lock_information.php";
+        public static final String URL = "http://www.jongtalad.com/doc/load_lock_information.php";
 
 
         @Override
@@ -595,7 +598,7 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
     }
 
     private class cancelLockReservation extends AsyncTask<String, Void, String> {
-        public static final String URL = "http://www.jongtalad.com/cancel_lock_reservation.php";
+        public static final String URL = "http://www.jongtalad.com/doc/cancel_lock_reservation.php";
 
         @Override
         protected String doInBackground(String... values) {
@@ -631,6 +634,13 @@ public class LockReservation extends AppCompatActivity implements View.OnClickLi
             loadLockname loadLockname = new loadLockname();
             loadLockname.execute();
         }
+    }
+
+    private String timeDate() {
+        Calendar calendar1 = Calendar.getInstance(Locale.getDefault());
+        SimpleDateFormat dateFormat = new SimpleDateFormat();
+        String s = dateFormat.format(calendar1.getTime());
+        return s;
     }
 }
 

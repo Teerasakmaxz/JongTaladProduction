@@ -2,175 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\459c03d86cd8c54b11844b63296c9d228c314d91\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_fc7c8774c9d72d48ef225c3b64f44208921c673b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\e32a5ace687f4b31eaef9b3fe5e651e83973e144\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_0f681e5ab3771a663d8fa8a550208b17549a96e9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\02fbd5608d5285eacec29840cacd327fb0132194\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_365642cab581c0328cb989345f35d7a6d4fdc670.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\6f36ab5666681734ab27d18386f8744b4bbc2ac1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_97a8939657539e2e77d5630f9e4fed5de020bbc0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\30ea2489580717fcac93a2cc25a0895f338cf187\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_12705dd59e7edf693a47c89d966a8da319e605a6.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="92f12bfd075ea8cacc0b473a9863c9c7b6896f08">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9f87dd5df9b4a74c2c32760e38dad19285d86d87\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\5e7d17dffdd7e52292a49c54d0393439de6d3e33\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_8a71c66a227d6bc8ea21b3526f3cd41528bef57c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\okio-1.13.0_dfd4d72c1e5a1075802549b5a79ab09754304307.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\02d810686cfd463258fcc7febef9f834c34c7870\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_39d3abbb44a2112113cc86b8e65b9d309da4cb3b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\b006e292784b5081b7a8e80f11d8194a45b4e8d8\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_dd6b18a8b283ec2d697b5df22f11d2cdba5d6c75.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.9.0\1b6c10b5120995a7542c1a31b7828fb8593c8ba\okhttp-3.9.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="01b6c10b5120995a7542c1a31b7828fb8593c8ba">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\okhttp-3.9.0_04ce8b57bdc142ec144af8855c7dcc3d71d5926d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_e898ba45bb131d9cae49e0c236307ded426eefb8.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_209c517a0f6eebc3c42f5f2a017ba1b40a38266f\classes.dex" />
+        <dex dex="/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2a7aadef5c489ad4e0836b22394cf34e95742036/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\09b6a25f96f97a08da4698f7fc4421269d6acf9d\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_35cb1609b7c6192c5b586a480bbaa16d8b2c081d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_c6a354ba48d820e9759f4c14b119f3a271794a8f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\a538be60e4e3f14b2a217f4f28c7f59f24269acf\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_a77d1440519ac1efcbdbbc1878179e8498b97a64.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\0b27f46aee684623f77d0260959e18e81941b153\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_b20afc599319e0060f7447a2579c1effec689240.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\5303f786255df6b13966c06d8a3488905d85950d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_a4058c2c6bd99f528ee7b760ac8ca2ae2c81ad68.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Naetirat\.android\build-cache\cd4f5388de565637fa5b60ef6c140b560cb8bfa7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="C:\Users\Naetirat\AndroidStudioProjects\JongTalad\app\build\intermediates\pre-dexed\debug\classes_238b2cd908b77b3ed4e1605dc37432e5ce1a3331.jar" />
+        sha1="565a3eb84846b15bc1235ce10c9163e8e16b8d0e">
+        <dex dex="/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4f28cce4816350d494ece2c7ec041edabfa0d178/classes.dex" />
     </item>
 
 </items>

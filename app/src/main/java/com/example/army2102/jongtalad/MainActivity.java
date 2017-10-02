@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private class CheckLogin extends AsyncTask<Void, Void, String> {
 
-        private static final String URL = "http://www.jongtalad.com/login.php";
+        private static final String URL = "http://www.jongtalad.com/doc/login.php";
 
         @Override
         protected void onPreExecute() {

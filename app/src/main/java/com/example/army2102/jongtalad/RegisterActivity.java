@@ -54,8 +54,12 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 String phonenumber = etPhonenumber.getText().toString().trim();
                 String marketName = etMarketName.getText().toString().trim();
                 String marketAddress = etMarketAddress.getText().toString().trim();
+
                 sendDataToDatabase sendDataToDatabase = new sendDataToDatabase();
                 sendDataToDatabase.execute(name, surname, phonenumber, marketName, marketAddress);
+
+
+
                 AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
                 builder.setTitle("ทำการสมัครเสร็จสิ้น !!")
                         .setMessage("ขอบคุณสำหรับการสมัครมากชิกทางทีมงานจะทำการติดต่อกลับไปภายใน 24 ชม.")
@@ -123,7 +127,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private class sendDataToDatabase extends AsyncTask<String, Void, String> {
-        public static final String URL = "http://www.jongtalad.com/market_registration.php";
+        public static final String URL = "http://www.jongtalad.com/doc/market_registration.php";
 
         @Override
         protected String doInBackground(String... value) {

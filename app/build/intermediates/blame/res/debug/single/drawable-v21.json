@@ -1,34 +1,34 @@
 [
     {
-        "merged": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\Naetirat\\.android\\build-cache\\02fbd5608d5285eacec29840cacd327fb0132194\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/teerasaksathu/.android/build-cache/af2dc43c5dd6eebac386891bc0408e23810e80cb/output/res/drawable-v21/avd_hide_password.xml"
     },
     {
-        "merged": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\Naetirat\\.android\\build-cache\\09b6a25f96f97a08da4698f7fc4421269d6acf9d\\output\\res\\drawable-v21\\avd_show_password.xml"
+        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Naetirat\\.android\\build-cache\\02fbd5608d5285eacec29840cacd327fb0132194\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/teerasaksathu/.android/build-cache/af2dc43c5dd6eebac386891bc0408e23810e80cb/output/res/drawable-v21/design_password_eye.xml"
     },
     {
-        "merged": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\Naetirat\\.android\\build-cache\\09b6a25f96f97a08da4698f7fc4421269d6acf9d\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\Naetirat\\.android\\build-cache\\09b6a25f96f97a08da4698f7fc4421269d6acf9d\\output\\res\\drawable-v21\\design_password_eye.xml"
+        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/teerasaksathu/.android/build-cache/af2dc43c5dd6eebac386891bc0408e23810e80cb/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Naetirat\\.android\\build-cache\\02fbd5608d5285eacec29840cacd327fb0132194\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\Users\\Naetirat\\.android\\build-cache\\09b6a25f96f97a08da4698f7fc4421269d6acf9d\\output\\res\\drawable-v21\\avd_hide_password.xml"
+        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/teerasaksathu/.android/build-cache/af2dc43c5dd6eebac386891bc0408e23810e80cb/output/res/drawable-v21/avd_show_password.xml"
     },
     {
-        "merged": "C:\\Users\\Naetirat\\AndroidStudioProjects\\JongTalad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\Naetirat\\.android\\build-cache\\02fbd5608d5285eacec29840cacd327fb0132194\\output\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/drawable-v21/abc_edit_text_material.xml"
     }
 ]
