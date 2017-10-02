@@ -2,22 +2,175 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.9.0\1b6c10b5120995a7542c1a31b7828fb8593c8ba\okhttp-3.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="01b6c10b5120995a7542c1a31b7828fb8593c8ba">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\okhttp-3.9.0_c17ca7f8695d6f56c7fa0b9744b6dacb82949fdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\d469821ce71bd16dfaf815496387032b9b2ca657\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_71e7d96c1d6bbe848b3cd728d71e6ee2115c10cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\okio-1.13.0_179c6ce7bd9c04f43c16a2f0c583046132664ef6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\1bc28d48654916fed41fd95937a86422e8ad47f2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_55dc7746126c5f30ff8f7e3a21e286b3e0bae72f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\264755024edb6992836a1fdc8e1c856764648902\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_d07f76b5e7e00b196cb362cca25fc2e0c612fce1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\b8b2db79f50fc1c10b8b32c95e4243ff16639b18\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_1e1961c028ed54e30cb59717a6179783f6c7b40e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\207b216332cc611b499c1a21ade1d44bd6e15aba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_f919ec38b5b01e035496adc05f36234346c676b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\f331a925908ed1506e4132d4a400c20a052d40f7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_3603ebd7291342a0530d2bd77be2d7eaca0b8802.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\aa4aafdc8c36d850a801d242afd2a6797b53e9c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_632a8223416982a1fcaf1b82f3ace629474ff0fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\7cf84ebaf05309a62b2796b8cf0a87fbc738768a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_aaf18a48e68c14dee0b331e9ec6725a9f5845360.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\d08d77bc6ebf19650ffa2e547cdd54d2830cc90a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_420852a62d21002c9061ac21c14bcbf85d5bffe6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_1026414257b33703076a16ba9c283139ff9c5261.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\86c89f08ee89d746b39fe7e1e222ff03e1f00542\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_a37c5beff7dd1aeeda7dbfdc587fa9aa497c5068.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\d7c3bf8906478f2a3d198e4bfa310c373f4392e5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_c2fe2d00f7eacbd8408860e64b3e3208e55b1af6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_228595155d583ce2424c17e2f8b92d4fa5932d8f.jar" />
+    </item>
+    <item
         is-multidex="true"
-        jar="/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2f53e8bcc15d51bdeb54d7d95b7d763452faf3eb">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c80b2f1a090db0163a78ed3a288b70ccc301573e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2a7aadef5c489ad4e0836b22394cf34e95742036/classes.dex" />
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_92b021991d5dae6d470e750a4d4f895ba50d25f1\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\my_nu\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="565a3eb84846b15bc1235ce10c9163e8e16b8d0e">
-        <dex dex="/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4f28cce4816350d494ece2c7ec041edabfa0d178/classes.dex" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_81af2bf341dd83673ac0c7eba332f146bf693841.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\my_nu\.android\build-cache\3de828dc61f303901b23beb1bac05a775ead1801\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\my_nu\Documents\GitHub\JongTaladProduction\app\build\intermediates\pre-dexed\debug\classes_85bc3589db7b2629c3bbeaa0d97e54c78ecace99.jar" />
     </item>
 
 </items>

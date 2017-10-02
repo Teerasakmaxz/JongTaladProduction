@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

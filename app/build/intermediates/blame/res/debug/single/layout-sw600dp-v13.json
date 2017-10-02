@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/af2dc43c5dd6eebac386891bc0408e23810e80cb/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\b8b2db79f50fc1c10b8b32c95e4243ff16639b18\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\af2dc43c5dd6eebac386891bc0408e23810e80cb\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

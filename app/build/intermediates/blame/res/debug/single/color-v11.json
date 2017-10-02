@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

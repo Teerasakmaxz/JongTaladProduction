@@ -1,26 +1,50 @@
 [
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/layout-v11/notification_template_big_media_custom.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/layout-v11/notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/layout-v11/notification_media_action.xml"
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/layout-v11/notification_template_big_media_narrow.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/layout-v11/notification_template_big_media.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     }
 ]

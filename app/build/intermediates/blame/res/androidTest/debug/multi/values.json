@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/teerasaksathu/.android/build-cache/4c0ecd5ee15f18ac1f052c30a6cd11fa639223ba/output/res/values/values.xml",
+                    "file": "C:\\Users\\teerasaksathu\\.android\\build-cache\\4c0ecd5ee15f18ac1f052c30a6cd11fa639223ba\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\my_nu\\.android\\build-cache\\e545a1fbb6c5cdb754ba9fceaac44c934f500f71\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

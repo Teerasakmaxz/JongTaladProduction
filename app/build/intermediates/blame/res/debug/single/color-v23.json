@@ -1,46 +1,90 @@
 [
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v23/abc_tint_spinner.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v23/abc_tint_switch_thumb.xml"
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v23/abc_tint_btn_checkable.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v23/abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v23/abc_tint_default.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/af2dc43c5dd6eebac386891bc0408e23810e80cb/output/res/color-v23/design_tint_password_toggle.xml"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v23/abc_tint_edittext.xml"
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\af2dc43c5dd6eebac386891bc0408e23810e80cb\\output\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v23/abc_tint_seek_thumb.xml"
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/teerasaksathu/.android/build-cache/466402d03270cbcf6ce89fec09491f8cfd8ec42e/output/res/color-v23/abc_btn_colored_text_material.xml"
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\b8b2db79f50fc1c10b8b32c95e4243ff16639b18\\output\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\teerasaksathu\\.android\\build-cache\\466402d03270cbcf6ce89fec09491f8cfd8ec42e\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\my_nu\\.android\\build-cache\\92b665ba3f5a29ed618d02f5ff5546cdfc0e3459\\output\\res\\color-v23\\abc_tint_spinner.xml"
     }
 ]

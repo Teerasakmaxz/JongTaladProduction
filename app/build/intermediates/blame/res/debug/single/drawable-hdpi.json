@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_down.png",
-        "source": "/Users/teerasaksathu/AndroidStudioProjects/JongTaladProduction/app/src/main/res/drawable-hdpi/ic_down.png"
+        "merged": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_down.png",
+        "source": "C:\\Users\\my_nu\\Documents\\GitHub\\JongTaladProduction\\app\\src\\main\\res\\drawable-hdpi\\ic_down.png"
+    },
+    {
+        "merged": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_down.png",
+        "source": "C:\\Users\\teerasaksathu\\AndroidStudioProjects\\JongTaladProduction\\app\\src\\main\\res\\drawable-hdpi\\ic_down.png"
     }
 ]
